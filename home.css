@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Sarala');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+.silde {
+    font-family: 'Sarala', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: url(arts.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4)
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.navb {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: white;
+    z-index: 999;
+    position: fixed;
+}
+
+.pestanas {
+    display: flex;
+    font-size: 24px;
+}
+
+.pestanas p {
+    margin: 0 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+.slogan {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    font-size: 30px
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.slogan h1 {
+    font-size: 70px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.move p {
+    font-size: 40px;
+    color: white;
+    opacity: 0;
+    margin-top: 50px;
+    transition: all 1s ease;
+    text-align: center;
+}
+
+.move hr {
+    background-color: white;
+    width: 0px;
+    height: 1px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.move:hover hr {
+    width: 120px;
+}
+
+.move:hover p {
+    opacity: 1;
+    margin-top: 10px;
+}
+
+
+/*about*/
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    font-family: 'Bitter', serif;
+}
+
+.descript {
+    height: 100%;
+}
+
+.descript div {
+    width: 300px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.foto {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    overflow: hidden;
+    border: 10px solid white;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://pbs.twimg.com/profile_images/592133990464655361/JGk-ot6Y_400x400.jpg);
+    transition: all 1s ease;
+}
+
+.about_me h2 {
+    font-size: 24px;
+    color: white;
+}
+
+.about_me p {
+    font-size: 18px;
+    color: white;
+    line-height: 150%;
+}
+
+.about_me i {
+    color: white;
+    margin: 0 10px;
+    font-size: 32px;
+}
+
+.foto:hover {
+    background-image: url(https://media.licdn.com/dms/image/C4E03AQHS37QA9ZQFNQ/profile-displayphoto-shrink_200_200/0?e=1539820800&v=beta&t=yHa-TtKCf-sj3oK0L3fdc0FHd3-HiLudDRrntErGwdo);
+}
+
+
+/* PROYECTOS */
+
+.carousel {
+    font-family: 'Sarala', sans-serif;
+    height: 100vh;
+}
+
+.carousel.carousel-slider .carousel-item h2 {
+    font-size: 32px !important;
+}
+
+.carousel .btn {
+    width: 120px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.proyecto1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("kmo.png");
+}
+
+.fl {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.pad {
+    padding-bottom: 150px
+}
+
+.proyecto2 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("ppay.png");
+}
+
+.proyecto3 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("HOME.png");
+}
+
+.step1 {}

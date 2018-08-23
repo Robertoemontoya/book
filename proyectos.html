@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Proyectos</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" href="./home.css">
+</head>
+
+<body>
+    <nav class="navb">
+        <a href="./home.html">
+            <h1 class="logo">RM</h1>
+        </a>
+        <div class="pestanas">
+            <a href="./about.html">
+                <p>About</p>
+            </a>
+            <a href="./proyectos.html">
+                <p>proyectos</p>
+            </a>
+            <p>contactos</p>
+        </div>
+
+    </nav>
+
+    <div class="carousel carousel-slider center">
+
+        <div class="carousel-item proyecto1 white-text fl pad" href="#one!">
+            <div>
+                <h2>Kmote</h2>
+                <p class="white-text">Proyecto de UX/UI</p>
+                <a class="btn waves-effect" href="./kmote.html">Ver mas</a>
+
+            </div>
+        </div>
+        <div class="carousel-item proyecto2 white-text fl pad" href="#two!">
+            <h2>Parking Pay</h2>
+            <p class="white-text"></p>
+        </div>
+        <div class="carousel-item proyecto3 white-text fl" href="#three!">
+            <div class="cover fl">
+                <h2 style="margin-bottom:200px">ABC MART</h2>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+        var instance = M.Carousel.init({
+            fullWidth: true,
+            indicators: true
+        });
+
+        // Or with jQuery
+
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
+        });
+    </script>
+
+</body>
+
+</html>

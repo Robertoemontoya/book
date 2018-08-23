@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Book</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="./home.css">
+</head>
+
+<body>
+
+    <div class="cover">
+        <nav class="navb">
+            <a href="./home.html">
+                <h1 class="logo">RM</h1>
+            </a>
+            <div class="pestanas">
+                <a href="./about.html">
+                    <p>About</p>
+                </a>
+                <a href="./proyectos.html">
+                    <p>Proyectos</p>
+                </a>
+                <p>Contactos</p>
+            </div>
+        </nav>
+    </div>
+    <div class="carousel carousel-slider center">
+
+        <div class="carousel-item step1 white-text fl pad" href="#one!">
+            <div>
+
+            </div>
+        </div>
+        <div class="carousel-item step2 white-text fl pad" href="#two!">
+
+        </div>
+        <div class="carousel-item step3 white-text fl" href="#three!">
+
+        </div>
+
+    </div>
+    <script>
+        var instance = M.Carousel.init({
+            fullWidth: true,
+            indicators: true
+        });
+
+        // Or with jQuery
+
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
+        });
+    </script>
+</body>
+
+</html>
